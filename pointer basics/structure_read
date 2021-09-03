@@ -18,8 +18,7 @@ int main()
 		exit(1);
 	}
 
-	/* read the structure into memory */
-	/* open the file */
+
 	fp = fopen(filename,"r");
 	if( fp==NULL )
 	{
@@ -33,7 +32,6 @@ int main()
 
 	/* output results */
 	puts("Data read:");
-	/* The 'name' member probably ends in a newline */
 	printf("Name: %sAge: %d\n",
 			toread->name,
 			toread->age
