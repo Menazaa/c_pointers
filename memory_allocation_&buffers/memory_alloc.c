@@ -2,6 +2,6 @@
 
 int main(int argc, char const *argv[])
 {
-    printf("this first commit");
+    printf("memory allocation");
     return 0;
 }

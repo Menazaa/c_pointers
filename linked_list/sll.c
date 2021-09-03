@@ -2,6 +2,6 @@
 
 int main(int argc, char const *argv[])
 {
-    printf("this first commit");
+    printf("linked list");
     return 0;
 }
